@@ -1,12 +1,15 @@
+import { Cart } from "./Cart";
 import { Filters } from "./Filters";
 
-export function Header({setFilters}) {
+export function Header() {
 
     return(
         <header>
             <h1>PRODUCTS</h1>
 
-            <Filters setFilters={setFilters} />
+            <Cart />
+
+            <Filters />
         </header>
     )
 }
