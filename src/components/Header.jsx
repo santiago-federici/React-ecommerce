@@ -1,9 +1,9 @@
-import { Cart } from "./Cart";
-import { Filters } from "./Filters";
+import { Cart } from './Cart'
+import { Filters } from './Filters'
+import './Header.css'
 
-export function Header() {
-
-    return(
+export function Header () {
+  return (
         <header>
             <h1>PRODUCTS</h1>
 
@@ -11,5 +11,5 @@ export function Header() {
 
             <Filters />
         </header>
-    )
+  )
 }

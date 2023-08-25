@@ -1,0 +1,26 @@
+header{
+    background: var(--clr-surface);
+    width: min(100% - 3rem, 100%);
+    margin-inline: auto;
+    position: relative;
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.filter-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+.filter-container > *{
+    font-size: 15px;
+}
+
+
+.filters{
+    display: flex;
+    gap: 3rem;
+}
